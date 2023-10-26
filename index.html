@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport"
+	      content = "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>GraceLink Haus</title>
+
+	<!---CSS--->
+	<link rel = "stylesheet" href = "assets/icons/fontawesome5.css">
+	<link rel = "stylesheet" href = "assets/css/styles.css">
+</head>
+
+<body>
+
+<!---Navbar-->
+<nav class = "navbar">
+	<div class = "navbarCenter">
+		<span class = "navIcon">
+			<i class = "fas fa-bars"></i>
+		</span>
+		<!--<img src = "assets/images/logo2.png" alt = "Store Logo">-->
+		<p>GraceLink <span>Haus</span></p>
+		<div class = "cartBtn" id="cartBtn">
+			<span class = "navIcon">
+				<i class = "fas fa-cart-plus"></i>
+			</span>
+			<div class = "cartItems" id="cartItems">
+				0
+			</div>
+		</div>
+	</div>
+</nav>
+<!---End of Navbar-->
+
+<!--- Hero -->
+<header class = "hero">
+	<div class = "banner">
+		<h1 class = "bannerTitle">Furniture Collection</h1>
+		<a href="#products"><button class = "bannerBtn" on>Shop Now</button></a>
+	</div>
+</header>
+<!---End of Hero-->
+
+<!---Products-->
+<section class = "products" id="products">
+	<div class = "sectionTitle">
+		<h2>Our Products</h2>
+	</div>
+
+	<div class = "productsCenter" id="productsCenter">
+
+		<!---Single Product--->
+		<!--FOR REFERENCE ONLY---
+		<article class = "product">
+			<div class = "imgContainer">
+				<img src = "assets/images/product-1.jpeg" alt = "product" class = "productImg">
+				<button class = "bagBtn" data-id = "1">
+					<i class = "fas fa-shopping-cart"></i>
+					Add to bag
+				</button>
+			</div>
+
+			<h3>Queen Panel bed</h3>
+			<h4>$10.99</h4>
+		</article>-->
+
+		<!---End of Single Product--->
+
+	</div>
+</section>
+<!---End of Products-->
+
+
+<!--- Cart --->
+<div class = "cartOverlay" id="cartOverlay">
+	<div class = "cart" id="cart">
+		<span class = "closeCart" id="closeCart">
+			<i class = "fas fa-window-close"></i>
+		</span>
+		<h2>Your Cart</h2>
+		<div class="cartContent" id="cartContent">
+			<!--- Cart Item --->
+			<!--<div class="cartItem">
+
+			</div>-->
+
+			<!--- End of Cart Item --->
+
+		</div>
+		<div class="cartFooter">
+			<h3>Your Total: $ <span class="cartTotal" id="cartTotal">0</span></h3>
+			<button class="clearCart bannerBtn" id="clearCart">Clear Cart</button>
+		</div>
+	</div>
+</div>
+<!---End of Cart--->
+
+
+<footer>
+	<p><span>&copy;2023</span> | GraceLink Enterprises Ltd.</p>
+</footer>
+<script src = "assets/js/app.js"></script>
+</body>
+</html>
